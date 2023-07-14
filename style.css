@@ -1,0 +1,170 @@
+/* 
+
+Farben:
+#6E9FB5
+#486775
+#94D5F4
+#212F36
+#86C0DB
+
+size
+position
+rest
+
+*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #94d5f4;
+  margin: 0px;
+}
+/* header {
+  width: 100%;
+  height: 15%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  padding: 20px;
+} */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #486775;
+  padding: 20px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  margin-right: 10px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+.nav-list button {
+  padding: 10px 20px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.nav_button {
+  background-color: #86c0db;
+}
+header .nav-list button,
+footer .nav-list button {
+  padding: 10px 20px;
+  background-color: #86c0db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .deck {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 25vh;
+  padding: 5%;
+}
+.card {
+  background-color: #6e9fb5;
+  width: 25vw;
+  height: 50vh;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 12%;
+} */
+.deck {
+  width: 90%;
+  height: 75vh;
+  margin-top: 5%;
+  display: flex;
+  gap: 5%;
+  margin: 5%;
+}
+
+.card {
+  width: 5vw;
+  height: 50vh;
+  margin-top: 10%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12%;
+  background-color: #6e9fb5;
+}
+
+.card-content {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  border-radius: 12%;
+}
+
+.content {
+  height: 20vh;
+  width: 100vw;
+  margin-top: 8%;
+  background-color: #486775;
+}
+
+.img_container img {
+  width: 60%;
+  height: 80%;
+  padding-top: 5%;
+  border-radius: 12%;
+  object-fit: cover;
+}
+
+/* .content {
+  width: 100vw;
+  height: 20vh;
+  background-color: #486775;
+} */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #486775;
+  padding: 20px;
+}
+
+footer .nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .nav-list li {
+  margin-right: 10px;
+}
+
+footer .nav-list li:last-child {
+  margin-right: 0;
+}
+
+footer .nav-list button {
+  padding: 10px 20px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
